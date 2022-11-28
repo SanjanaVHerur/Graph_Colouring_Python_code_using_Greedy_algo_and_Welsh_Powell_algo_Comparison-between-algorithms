@@ -6,8 +6,8 @@ Graph colouring problem can be solved using :
 
 
 **Graph_colouring.py** contains python implementation of above algorithms defined in different functions  :\
-**greedy(g,n)** : takes graph adjacency matrix and number of nodes in the graph as inputs\
-**welsh_powell(g,n)** : same goes with this, takes graph adjacency matrix and number of nodes in the graph as inputs\
+**greedy(g,n)** : takes undirected graph adjacency matrix and number of nodes in the graph as inputs\
+**welsh_powell(g,n)** : same goes with this, takes undirected graph adjacency matrix and number of nodes in the graph as inputs\
 Two modules are imported :\
 **numpy** for generating random square matrix of size 27 to 30 representing the graph. This is used for comparison purpose.\
 **time** for comparison purpose.\
