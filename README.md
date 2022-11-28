@@ -1,9 +1,9 @@
 # Graph_Colouring_python_code_using_greedy_algorithm_and_welsh_powell_algorithm
 Graph colouring problem is a problem of assigning colours to nodes (subjects) in the graph (network) such that no two adjacent vertices have same colour.\
 Graph colouring problem can be solved using :
-1) **Greedy Algorithm** : Start assigning a colour to some random vertex and then check which vertices are not adjacent to that vertex , colour those with the same colour. And then colour the next uncoloured vertex chosen with different colour. Continue the process till all the nodes are coloured.\
+1) **Greedy Algorithm** : Start assigning a colour to some random vertex and then check which vertices are not adjacent to that vertex , colour those with the same colour. And then colour the next uncoloured vertex chosen with different colour. Continue the process till all the nodes are coloured.
 2) **Welsh-Powell Algorithm** : Calculate the degrees of all vertices and sort the vertices in descending order of degrees. Colour the first vertex with some colour. Move down the list and colour all the vertices not connected to the coloured vertex, with the same color. Repeat the process for the next uncoloured vertex in the list with different colour.
-\
+
 
 **Graph_colouring.py** contains python implementation of above algorithms defined in different functions  :\
 **greedy(g,n)** : takes graph adjacency matrix and number of nodes in the graph as inputs\
