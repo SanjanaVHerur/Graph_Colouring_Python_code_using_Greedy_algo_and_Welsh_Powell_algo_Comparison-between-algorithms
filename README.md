@@ -12,13 +12,14 @@ Two modules are imported :\
 **time** for comparison purpose.\
 There are also two examples of matrices(graph) of small size (5 and 8) which are commented. Can be run for understanding the code.
  
-### Comparison between both algorithms : \
+### Comparison between both algorithms : 
+
 Two metrics/criterion taken into account for comparison :\
-**Chromatic number : ** The minimum number of colours used in order to colour the vertices.\
-**Time : ** Time taken for execution.\
+**Chromatic number :** The minimum number of colours used in order to colour the vertices.\
+**Time :** Time taken for execution.\
  
-**Conclusion after comparison : **
-**Output_Screenshots.pdf ** contains ss of execution on different graphs for better understanding.\
+**Conclusion after comparison :**
+**Output_Screenshots.pdf** contains ss of execution on different graphs for better understanding.\
 Greedy Approach is fast, takes less time compared to Welsh Powell\
 since welsh powell must calculate degree of all vertices\
 and sort in descending order.\
