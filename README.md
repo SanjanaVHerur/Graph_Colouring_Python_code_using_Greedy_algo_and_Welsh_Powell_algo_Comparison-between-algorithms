@@ -16,23 +16,23 @@ There are also two examples of matrices(graph) of small size (5 and 8) which are
 
 Two metrics/criterion taken into account for comparison :\
 **Chromatic number :** The minimum number of colours used in order to colour the vertices.\
-**Time :** Time taken for execution.\
+**Time :** Time taken for execution.
  
-**Conclusion after comparison :**
+**Conclusion after comparison :** \
 **Output_Screenshots.pdf** contains ss of execution on different graphs for better understanding.\
 Greedy Approach is fast, takes less time compared to Welsh Powell\
 since welsh powell must calculate degree of all vertices\
-and sort in descending order.\
+and sort in descending order.
 
 There are Two example cases where, in first example containing 5 vertices,\
 both algoithms give same chromatic number and distribution of colours,\
 Whereas in second example containing 8 vertices, greedy algo gave Chromatic\
-number as 3 while welsh powell gave chromatic number as 4.\
+number as 3 while welsh powell gave chromatic number as 4.
 
 Greedy approach depends on ordering of vertices, so if instead the order in \
-2nd example was 0,6,2,3,1,5,4,7 then chromatic number would be 4.\
+2nd example was 0,6,2,3,1,5,4,7 then chromatic number would be 4.
 
-Both approaches does'nt give the optimal solution **always** and can depend on other factors like the 'order' in case of greedy algorithm.\
+Both approaches does'nt give the optimal solution **always** and can depend on other factors like the 'order' in case of greedy algorithm.
  
  
  
